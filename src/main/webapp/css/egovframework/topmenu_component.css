@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/* ����޴� */
+.cbp-spmenu {
+    position: absolute;
+    width: 1200px;
+    background: #0060b1;
+    z-index: 500
+}
+
+.cbp-spmenu a {
+    display: block;
+    color: #fff
+}
+
+.cbp-spmenu a:hover, a:active {
+    background: #258ecd
+}
+
+/* ����޴� ���� */
+.cbp-spmenu-horizontal {
+    margin-left: 516px;
+    width: 570px;
+    height: 108px
+}
+
+.cbp-spmenu-horizontal a {
+    width: 104px;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding-left: 10px
+}
+
+/* ����޴� ���� ��ġ, �����̵� ��ġ */
+.cbp-spmenu-top {
+    top: -150px
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+    top: 0
+}
+
+/* �����̵� ȿ�� */
+.cbp-spmenu {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cbp-spmenu .submenu {
+    float: left;
+    width: 114px;
+    height: 100%
+}
+
+.cbp-spmenu .vct_bg {
+    background: #0d68b5
+}
+
+.cbp-spmenu .space {
+    padding-top: 20px
+}
+
+/* ��� �޴����� ������ġ ǥ�� */
+#contact .bg a.menu1 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_respons_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#virus_list .bg a.menu2 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_virus_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#virus_notify .bg a.menu2 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_virus_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#info_report .bg a.menu3 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_info_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#info_update .bg a.menu3 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_info_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#info_except .bg a.menu3 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_info_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#info_result .bg a.menu3 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_info_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#file_setup .bg a.menu4 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_reference_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#file_update .bg a.menu4 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_reference_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#file_others .bg a.menu4 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_reference_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#help_list .bg a.menu5 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_help_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#help_question .bg a.menu5 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_help_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#help_faq .bg a.menu5 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_help_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#help_request .bg a.menu5 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_help_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#error_list .bg a.menu6 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_error_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#error_notify .bg a.menu6 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_error_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#guide .bg a.menu7 {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_guide_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+/* left menu selected effect */
+#notice .leftmenu .lm00 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#contact .leftmenu .lm01 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#virus_list .leftmenu .lm0201 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#virus_notify .leftmenu .lm0202 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#info_report .leftmenu .lm0301 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#info_update .leftmenu .lm0302 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#info_except .leftmenu .lm0303 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#info_result .leftmenu .lm0304 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#file_setup .leftmenu .lm0401 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#file_update .leftmenu .lm0402 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#file_others .leftmenu .lm0403 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#help_list .leftmenu .lm0501 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#help_question .leftmenu .lm0502 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#help_faq .leftmenu .lm0503 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#help_request .leftmenu .lm0504 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#error_list .leftmenu .lm0601 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#error_notify .leftmenu .lm0602 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+#guide .leftmenu .lm07 {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}

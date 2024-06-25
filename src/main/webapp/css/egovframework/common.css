@@ -1,0 +1,1991 @@
+@charset "UTF-8";
+.fltR {
+    float: right
+}
+
+.fltL {
+    float: left
+}
+
+.clrBt {
+    clear: both
+}
+
+.fontB {
+    font-weight: bold
+}
+
+.fontEng {
+    letter-spacing: 0px;
+    padding-left: 1px
+}
+
+.fontColor {
+    color: #222
+}
+
+.letterS-1 {
+    letter-spacing: -1px
+}
+
+.fontSize11 {
+    font-size: 11px
+}
+
+/* header */
+#header .bg {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(/images/egovframework/main_img/bg_menu_gbl.png) no-repeat;
+    color: #fff;
+    overflow: hidden
+}
+
+#header .bg a.logo:link, a.logo:visited, a.logo:hover, a.logo:active {
+    float: left;
+    padding: 18px 0 0 4px;
+    background: none
+}
+
+#header ul li {
+    float: left
+}
+
+#header a.menu1:link, a.menu1:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/menu_gbl_respons.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu1:hover, a.menu1:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_respons_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu2:link, a.menu2:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_virus.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu2:hover, a.menu2:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_virus_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu3:link, a.menu3:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_info.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu3:hover, a.menu3:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_info_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu4:link, a.menu4:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_reference.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu4:hover, a.menu4:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_reference_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu5:link, a.menu5:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_help.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu5:hover, a.menu5:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_help_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu6:link, a.menu6:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_error.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu6:hover, a.menu6:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_error_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+#header a.menu7:link, a.menu7:visited {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_guide.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #6689cc
+}
+
+#header a.menu7:hover, a.menu7:active {
+    float: left;
+    width: 114px;
+    height: 104px;
+    text-align: center;
+    padding-top: 63px;
+    background: url(/images/egovframework/main_img/images/menu_gbl_guide_over.png) no-repeat 0 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #00fffc
+}
+
+/* container */
+#container .wth1200 {
+    width: 1200px;
+    margin: 0 auto
+}
+
+#container .contents {
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden
+}
+
+#container .main {
+    float: left;
+    background: #fff;
+    height: 421px
+}
+
+#container .notice {
+    width: 760px
+}
+
+#container .download {
+    width: 410px;
+    margin-left: 30px
+}
+
+#container .border {
+    border: 4px solid #e1e1e1
+}
+
+#container .main .title_height {
+    height: 51px
+}
+
+#container .main h2 {
+    float: left;
+    margin: 6px 0 0 22px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000
+}
+
+#container .main .more {
+    float: right;
+    margin: 16px 20px 0 0
+}
+
+#container .notice_list {
+    height: 362px
+}
+
+#container .notice li.important_no1 {
+    background: #f5f5f5;
+    height: 146px
+}
+
+#container .notice li.important_no1 .space {
+    padding: 19px 28px 7px 24px;
+    overflow: hidden
+}
+
+#container .notice li.important_no1 .title {
+    background: url(/images/egovframework/main_img/images/icn_notice_important.png) no-repeat 0 4px;
+    height: 20px;
+    padding-left: 62px;
+}
+
+#container .notice li.important_no1 .date {
+    float: right;
+    color: #000
+}
+
+#container .notice li.important_no1 .dash {
+    display: block;
+    background: url(/images/egovframework/main_img/images/bg_dot_notice.png) repeat-x;
+    height: 1px;
+    margin: 0 20px 0 20px
+}
+
+#container .notice li.important_no1 .detail {
+    font-size: 14px;
+    line-height: 24px;
+    color: #555;
+    padding: 24px 30px 0 88px
+}
+
+#container .notice li.important {
+    background: url(/images/egovframework/main_img/images/icn_notice_important.png) no-repeat;
+    height: 20px;
+    margin: 8px 28px 0 24px;
+    padding-left: 64px;
+    line-height: 18px
+}
+
+#container .notice li.imp_space {
+    margin-top: 30px
+}
+
+#container .notice li.important .date {
+    float: right;
+    color: #444
+}
+
+#container .notice li.normal {
+    background: url(/images/egovframework/main_img/images/icn_notice_normal.png) no-repeat;
+    height: 20px;
+    margin: 8px 28px 0 24px;
+    padding-left: 64px;
+    line-height: 18px
+}
+
+#container .notice li.normal .date {
+    float: right;
+    color: #777
+}
+
+a.idx_notice_no1:link, a.idx_notice_no1:visited {
+    color: #ef560b;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    background: url(/images/egovframework/main_img/images/icn_notice_important.png) no-repeat 0 4px;
+    height: 20px;
+    padding-left: 62px
+}
+
+a.idx_notice_no1:hover, a.idx_notice_no1:active {
+    color: #0090e3;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    background: url(/images/egovframework/main_img/images/icn_notice_important.png) no-repeat 0 4px;
+    height: 20px;
+    padding-left: 62px;
+    text-decoration: underline
+}
+
+a.idx_notice_imp:link, a.idx_notice_imp:visited {
+    color: #444;
+    font-weight: bold
+}
+
+a.idx_notice_imp:hover, a.idx_notice_imp:active {
+    color: #0090e3;
+    font-weight: bold;
+    text-decoration: underline;
+    background: none
+}
+
+a.idx_notice_nor:link, a.idx_notice_nor:visited {
+    color: #777;
+    font-weight: bold
+}
+
+a.idx_notice_nor:hover, a.idx_notice_nor:active {
+    color: #0090e3;
+    font-weight: bold;
+    text-decoration: underline;
+    background: none
+}
+
+#container .download .list_group {
+    height: 352px
+}
+
+/*#container .download .list_group .subtitle {margin:0 16px 0 16px; background:#f3f3f3; padding:6px 0 6px 14px; color:#888; font-weight:bold}*/
+.tab_group {
+    margin: 10px 22px 0 22px;
+    overflow: hidden
+}
+
+.tab_select {
+    float: left;
+    width: 177px;
+    background: #fff;
+    border-top: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #d5d5d5;
+    padding: 7px 0 7px 0;
+    text-align: center;
+    font-weight: bold
+}
+
+a.tab_unselect:link, a.tab_unselect:visited {
+    display: block;
+    float: left;
+    width: 179px;
+    padding: 8px 0 7px 0;
+    border-bottom: 1px solid #d5d5d5;
+    color: #fff;
+    color: #999;
+    font-weight: bold;
+    background: #f1f1f1;
+    text-decoration: none;
+    text-align: center
+}
+
+a.tab_unselect:hover, a.tab_unselect:active {
+    display: block;
+    float: left;
+    width: 179px;
+    padding: 8px 0 7px 0;
+    border-bottom: 1px solid #d5d5d5;
+    color: #fff;
+    color: #222;
+    font-weight: bold;
+    background: #e1e1e1;
+    text-decoration: none;
+    text-align: center
+}
+
+#container .download .list_group ul {
+    margin: 24px 22px 0 22px
+}
+
+#container .download .list_group ul li {
+    display: block;
+    height: 46px;
+    background: url(/images/egovframework/main_img/images/bg_dot_download.png) repeat-x 0 0
+}
+
+#container .download .list_group .icon {
+    float: left;
+    margin: 2px 0 0 2px
+}
+
+#container .download .list_group .name {
+    float: left;
+    margin: 5px 0 0 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444
+}
+
+/*#container .download .list_group .btn_group {float:right; margin:8px 6px 0 0}*/
+#container .download .list_group .btn_bg {
+    background: url(/images/egovframework/main_img/images/bg_download_center.png) repeat-x;
+    height: 23px;
+    padding: 0 4px 0 4px
+}
+
+a.download_ptn:link, a.download_ptn:visited {
+    float: right;
+    color: #666666;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 3px;
+    margin: 5px 4px 0 0
+}
+
+a.download_ptn:hover, a.download_ptn:active {
+    float: right;
+    color: #0095e1;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 3px;
+    margin: 5px 4px 0 0;
+    background: none
+}
+
+#container .sub {
+    margin-top: 30px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden
+}
+
+#container .sub .scan {
+    float: left;
+    background: #fff;
+    width: 600px;
+    height: 443px;
+    border-right: 1px solid #e1e1e1
+}
+
+#container .sub .title_height {
+    height: 57px
+}
+
+#container .sub h2 {
+    float: left;
+    margin: 10px 0 0 22px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000
+}
+
+#container .sub .more {
+    float: right;
+    margin: 20px 20px 0 0
+}
+
+#container .nodata {
+    width: 558px;
+    height: 365px;
+    margin: auto;
+    background: #f7f7f7;
+    text-align: center
+}
+
+#container .nodata .icon {
+    padding-top: 112px
+}
+
+#container .nodata .text {
+    font-weight: bold;
+    color: #888;
+    padding-top: 12px
+}
+
+#container .sub .right_group {
+    float: left;
+    overflow: hidden
+}
+
+#container .sub .right_group .error {
+    width: 600px;
+    height: 220px;
+    float: left;
+    border-right: 1px solid #e1e1e1;
+    background: #fff
+}
+
+/*
+#container .sub .right_group {float:left; width:597px; overflow:hidden}
+#container .sub .right_group .error {height:220px; border-bottom:1px solid #e1e1e1; background:#fff}
+*/
+.nothing01 {
+    background: #f9f9f9;
+    width: 714px;
+    height: 340px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.nothing01 .space {
+    padding-top: 160px
+}
+
+.nothing02 {
+    background: #f9f9f9;
+    width: 358px;
+    height: 272px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.nothing02 .space {
+    padding-top: 127px
+}
+
+.nothing03 {
+    background: #f9f9f9;
+    width: 556px;
+    height: 141px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.nothing03 .space {
+    padding-top: 56px
+}
+
+a.idx_list:link, a.idx_list:visited {
+    color: #222
+}
+
+a.idx_list:hover, a.idx_list:active {
+    color: #0090e3;
+    text-decoration: underline;
+    background: none
+}
+
+#container .sub .right_group ul li {
+    height: 20px;
+    margin: 8px 32px 0 32px;
+    line-height: 18px
+}
+
+#container .sub .right_group ul li .ongoing {
+    float: left;
+    display: block;
+    background: #dfb056;
+    width: 62px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding: 1px 0 1px 0;
+    margin-right: 8px
+}
+
+#container .sub .right_group ul li .finish {
+    float: left;
+    display: block;
+    background: #7caac5;
+    width: 62px;
+    border-radius: 20px;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 12px;
+    text-align: center;
+    padding: 1px 0 1px 0;
+    margin-right: 8px
+}
+
+#container .sub .right_group .qna {
+    width: 597px;
+    height: 220px;
+    float: right;
+    background: #fff
+}
+
+/* #container .sub .right_group .qna {height:220px; background:#fff} */
+/* footer */
+.footer {
+    margin: 33px 0 24px 0;
+    overflow: hidden
+}
+
+.footer .mnd_logo {
+    float: left;
+    margin-left: 51px
+}
+
+.footer .address {
+    float: left;
+    margin-left: 48px;
+    font-size: 12px;
+    color: #787878;
+    line-height: 18px
+}
+
+.footer .hauri_logo {
+    float: right;
+    margin-right: 46px
+}
+
+/* left menu */
+.leftmenu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100%;
+    background: #e9f0f3
+}
+
+.leftmenu .space {
+    padding: 8px 13px 16px 13px
+}
+
+.leftmenu .space .font {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: -1px
+}
+
+.leftmenu .space .font .group1 {
+    background: url(/images/egovframework/main_img/images/bg_leftmenu_dot.png) repeat-x 0 39px;
+    height: 32px;
+    padding-top: 8px;
+    padding-left: 10px
+}
+
+.leftmenu .space .font .group2 {
+    background: url(/images/egovframework/main_img/images/bg_leftmenu_dot.png) repeat-x 0 80px;
+    height: 73px;
+    padding-top: 8px;
+    padding-left: 10px
+}
+
+.leftmenu .space .font .group3 {
+    background: url(/images/egovframework/main_img/images/bg_leftmenu_dot.png) repeat-x 0 100px;
+    height: 93px;
+    padding-top: 8px;
+    padding-left: 10px
+}
+
+.leftmenu .space .font .group4 {
+    background: url(/images/egovframework/main_img/images/bg_leftmenu_dot.png) repeat-x 0 120px;
+    height: 113px;
+    padding-top: 8px;
+    padding-left: 10px
+}
+
+.leftmenu .space .font ul {
+    font-size: 12px;
+    color: #555;
+    margin-top: 2px
+}
+
+.leftmenu .space .font ul li {
+    line-height: 20px
+}
+
+a.lmenu:link, a.lmenu:visited {
+    color: #222
+}
+
+a.lmenu:hover, a.lmenu:active {
+    color: #0095e1;
+    background: none;
+    text-decoration: underline
+}
+
+a.lmenu_sub:link, a.lmenu_sub:visited {
+    color: #666
+}
+
+a.lmenu_sub:hover, a.lmenu_sub:active {
+    color: #009ae9;
+    background: none;
+    text-decoration: underline
+}
+
+.submain {
+    margin-left: 260px;
+    width: 940px;
+    background: #fff;
+    min-height: 600px
+}
+
+.submain .line {
+    border: 2px solid #e1e1e1;
+    overflow: hidden;
+    min-height: 596px
+}
+
+.submain .line .space {
+    margin: 30px
+}
+
+.submain .line .space .title {
+    overflow: hidden;
+    padding-bottom: 30px
+}
+
+.submain .line .space .title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #000;
+    margin-top: -6px
+}
+
+.submain .line .space .title .exp {
+    padding: 4px 0 0 2px;
+    font-size: 12px;
+    color: #777
+}
+
+.submain .line .space2 {
+    margin: 29px 30px 30px 30px
+}
+
+.submain .line .space2 .title {
+    overflow: hidden;
+    padding-bottom: 30px
+}
+
+.submain .line .space2 .title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #000;
+    margin-top: -6px
+}
+
+.submain .line .space2 .title .exp {
+    padding: 4px 0 0 2px;
+    font-size: 12px;
+    color: #777
+}
+
+.search_area {
+    width: 360px
+}
+
+.search {
+    float: left;
+    width: 220px;
+    border-bottom: 2px solid #e0e0e0;
+    overflow: hidden;
+    margin-top: 17px
+}
+
+.search .ipt {
+    float: left;
+    height: 27px;
+    margin-left: 4px
+}
+
+.search .ipt input.text {
+    font-size: 12px;
+    border: none;
+    width: 180px;
+    height: 24px
+}
+
+.search input.btn_search {
+    float: right;
+    width: 34px;
+    height: 24px;
+    overflow: hidden;
+    background: url('/images/egovframework/main_img/images/btn_search.png') no-repeat;
+    margin: 0;
+    border: none
+}
+
+a.btn_move:link, a.btn_move:visited {
+    display: block;
+    font-weight: bold;
+    padding: 6px 26px 7px 26px;
+    color: #fff;
+    background: #009aec;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 28px
+}
+
+a.btn_move:hover, a.btn_move:active {
+    display: block;
+    font-weight: bold;
+    padding: 6px 26px 7px 26px;
+    color: #fff;
+    background: #0071ad;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 28px
+}
+
+.listbox {
+    background: #f6f6f6;
+    border: 1px solid #ededed
+}
+
+.pad {
+    padding: 20px 24px 0px 24px;
+    overflow: hidden
+}
+
+.number {
+    float: left;
+    width: 60px;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+    color: #999;
+    line-height: 20px
+}
+
+.number2 {
+    float: left;
+    width: 60px;
+    text-align: right;
+    padding-right: 78px;
+    font-weight: bold;
+    color: #999;
+    line-height: 20px
+}
+
+.ver {
+    float: left;
+    background: #46a1df;
+    width: 110px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 0;
+    margin: 1px 16px 0 2px;
+    line-height: 20px;
+    border-radius: 2px
+}
+
+.file {
+    float: left;
+    width: 118px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 0;
+    margin: 1px 16px 0 12px;
+    line-height: 20px;
+    border-radius: 2px
+}
+
+.pc {
+    background: #46a1df
+}
+
+.server {
+    background: #6b4a85
+}
+
+.others {
+    background: #ea8184
+}
+
+.icon_file {
+    float: left;
+    margin-left: 30px;
+    margin-right: 26px
+}
+
+.ttl {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444
+}
+
+.date {
+    float: right;
+    text-align: right
+}
+
+.detail {
+    padding: 12px 22px 12px 115px
+}
+
+.detail .text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #888
+}
+
+.detail2 {
+    clear: both;
+    margin: 7px 0 1px 91px
+}
+
+.detail2 .text {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888
+}
+
+.pdf {
+    float: right;
+    overflow: hidden;
+    margin-top: -1px
+}
+
+/*.pdf {text-align:right; overflow:hidden}*/
+.pdf .size {
+    float: right;
+    padding-left: 6px;
+    padding-right: 24px;
+    color: #888;
+    font-size: 12px
+}
+
+.pdf .name {
+    float: left;
+    background: url(/images/egovframework/main_img/images/bg_download_center.png) repeat-x;
+    height: 23px;
+    padding-right: 7px;
+    padding-left: 3px
+}
+
+.name2 {
+    float: left;
+    background: url(/images/egovframework/main_img/images/bg_download_no_center.png) repeat-x;
+    height: 23px;
+    padding-right: 7px;
+    padding-left: 3px;
+    font-size: 12px;
+    color: #a9a9a9
+}
+
+.pdf2 {
+    background: #fff;
+    float: left;
+    margin-left: 8px;
+    overflow: hidden
+}
+
+.pdf2 .name {
+    float: left;
+    background: url(/images/egovframework/main_img/images/bg_download_center.png) repeat-x;
+    height: 23px;
+    padding: 3px 7px 0 3px
+}
+
+.download_no_pdf {
+    float: right;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+    overflow: hidden
+}
+
+a.download_pdf:link, a.download_pdf:visited {
+    float: right;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+    overflow: hidden
+}
+
+a.download_pdf:hover, a.download_pdf:active {
+    float: right;
+    font-size: 12px;
+    color: #0095e1;
+    font-weight: bold;
+    overflow: hidden;
+    background: none
+}
+
+.listspace {
+    margin-top: 12px;
+    overflow: hidden
+}
+
+.bgWhite {
+    background: #fff
+}
+
+.listLine {
+    margin-top: -1px
+}
+
+.impColor {
+    color: #ef560b
+}
+
+.norColor {
+    color: #007fd6
+}
+
+.mt19 {
+    margin-top: 19px
+}
+
+.smallDownload {
+    margin: 13px 18px 0 0
+}
+
+.notice_space {
+    height: 30px
+}
+
+.fontC444 {
+    color: #444
+}
+
+a.list_link:link, a.list_link:visited {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    padding: 14px 24px 14px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link:hover, a.list_link:active {
+    background: #c0d8e2;
+    border: 1px solid #c0d8e2;
+    padding: 14px 24px 14px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_linkW:link, a.list_linkW:visited {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    padding: 15px 24px 15px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_linkW:hover, a.list_linkW:active {
+    background: #c0d8e2;
+    border: 1px solid #c0d8e2;
+    padding: 15px 24px 15px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link2:link, a.list_link2:visited {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    padding: 14px 24px 11px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link2:hover, a.list_link2:active {
+    background: #c0d8e2;
+    border: 1px solid #c0d8e2;
+    padding: 14px 24px 11px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link3:link, a.list_link3:visited {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    padding: 10px 24px 10px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link3:hover, a.list_link3:active {
+    background: #c0d8e2;
+    border: 1px solid #c0d8e2;
+    padding: 10px 24px 10px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link4:link, a.list_link4:visited {
+    background: #ffffff;
+    border-bottom: 1px dashed #cccccc;
+    padding: 14px 24px 11px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+a.list_link4:hover, a.list_link4:active {
+    background: #ffffff;
+    border-bottom: 1px dashed #cccccc;
+    padding: 14px 24px 11px 24px;
+    overflow: hidden;
+    display: block;
+    color: #222
+}
+
+.imprt_notice {
+    float: left;
+    width: 64px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 26px
+}
+
+.ttl2 {
+    float: left;
+    font-weight: bold
+}
+
+.categ {
+    display: block;
+    float: left;
+    width: 86px;
+    height: 20px;
+    background: #46a1df;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding: 0;
+    margin-top: 2px;
+    margin-right: 8px
+}
+
+/*.categ  {display:block; float:left; background:#fff; border:1px solid #46a1df; width:84px; text-align:center; color:#007fd6; font-size:12px; letter-spacing:-1px; padding:1px 0 1px 0; margin-top:2px; margin-right:8px; line-height:16px}*/
+.categ2 {
+    display: block;
+    float: left;
+    width: 86px;
+    height: 20px;
+    background: #46a1df;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding: 0;
+    margin-top: 2px;
+    margin-right: 8px
+}
+
+.categ3 {
+    display: block;
+    float: left;
+    width: 86px;
+    height: 20px;
+    background: #6aab65;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding: 0;
+    margin-top: 2px;
+    margin-right: 8px
+}
+
+.count {
+    float: left;
+    text-align: right;
+    width: 88px;
+    color: #999
+}
+
+.detail_list {
+    background: #fff;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    padding: 20px 26px 20px 26px;
+    color: #444;
+    line-height: 18px;
+    font-size: 12px
+}
+
+.detail_list2 {
+    background: #fff;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    padding: 0;
+    color: #444;
+    line-height: 18px;
+    font-size: 12px
+}
+
+.status {
+    float: left
+}
+
+.status_ongoing {
+    float: left;
+    display: block;
+    background: #ff9b19;
+    width: 86px;
+    height: 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: 8px;
+    line-height: 20px;
+    font-weight: bold
+}
+
+.status_handling {
+    float: left;
+    display: block;
+    background: #a25c00;
+    width: 86px;
+    height: 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: 8px;
+    line-height: 20px;
+    font-weight: bold
+}
+
+.status_finish {
+    float: left;
+    display: block;
+    background: #5baf5f;
+    width: 86px;
+    height: 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: 8px;
+    line-height: 20px;
+    letter-spacing: -1px
+}
+
+.img_reply {
+    float: left;
+    background: url(/images/egovframework/main_img/images/bg_reply.png) no-repeat;
+    width: 30px;
+    height: 20px
+}
+
+.status_reply {
+    float: left;
+    display: block;
+    background: #ffffff;
+    width: 54px;
+    height: 18px;
+    border: 1px solid #5baf5f;
+    border-radius: 2px;
+    color: #1f9925;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: 8px;
+    line-height: 16px
+}
+
+.list_title {
+    float: left;
+    color: #444
+}
+
+.hit {
+    float: right;
+    color: #888;
+    margin-top: 1px
+}
+
+.hit .re {
+    float: left;
+    margin-left: 18px
+}
+
+.send_info {
+    clear: both;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    padding-top: 6px;
+    margin-left: 185px;
+    overflow: hidden
+}
+
+.send_info .army {
+    float: left;
+    width: 250px
+}
+
+.send_info .name {
+    float: left;
+    width: 250px
+}
+
+.attached_file {
+    padding: 10px;
+    margin-bottom: -20px;
+    font-size: 12px;
+    text-align: right;
+    color: #ff7800
+}
+
+.when {
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    padding-top: 2px;
+    margin-left: 167px
+}
+
+.when .regi {
+    float: left;
+    width: 250px
+}
+
+.alert {
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #f1f1f1;
+    padding: 14px 16px 14px 16px;
+    border-radius: 6px
+}
+
+.alert_icon {
+    float: left;
+    margin: 5px 20px 0 30px
+}
+
+.alert_title {
+    font-weight: bold;
+    margin-left: 9px
+}
+
+.alert_list {
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 18px
+}
+
+.tbl_virus {
+    position: relative
+}
+
+.tbl_virus .borderT {
+    border-top: 1px solid #ededed
+}
+
+.tbl_virus .borderR {
+    border-right: 1px solid #ededed
+}
+
+.tbl_virus .borderB {
+    border-bottom: 1px solid #ededed
+}
+
+.tbl_virus .borderL {
+    border-left: 1px solid #ededed
+}
+
+.tbl_virus th {
+    text-align: left;
+    height: 40px;
+    padding-left: 20px;
+    background: #f6f6f6
+}
+
+.tbl_virus .pad01 {
+    padding: 0 24px 0 24px
+}
+
+.tbl_virus .pad02 {
+    margin-top: 4px;
+    width: 80px
+}
+
+.tbl_virus .pad03 {
+    margin-left: 30px
+}
+
+.tbl_virus .pad04 {
+    padding: 8px 24px 8px 24px
+}
+
+.tbl_virus .pad05 {
+    width: 56px;
+    margin-top: 4px
+}
+
+.tbl_virus .pad06 {
+    margin-top: 5px
+}
+
+.tbl_virus .pad07 {
+    margin-right: 24px
+}
+
+input.p01 {
+    margin-top: -2px;
+    margin-right: 3px
+}
+
+input.t01 {
+    border: 1px solid #d4d4d4;
+    height: 24px;
+    padding-left: 6px
+}
+
+textarea.s01 {
+    border: 1px solid #d4d4d4;
+    resize: none
+}
+
+.tbl_virus select.sel {
+    border: 1px solid #d4d4d4;
+    height: 26px
+}
+
+.btn_set {
+    margin: 0 0 30px 0;
+    float: right;
+    overflow: hidden
+}
+
+.btn_set2 {
+    width: 130px;
+    margin: 0 auto
+}
+
+a.btn_OK:link, a.btn_OK:visited {
+    float: left;
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0 8px 0;
+    color: #fff;
+    background: #009aec;
+    border-radius: 4px;
+    margin-top: 30px
+}
+
+a.btn_OK:hover, a.btn_OK:active {
+    float: left;
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0 8px 0;
+    color: #fff;
+    background: #0071ad;
+    border-radius: 4px;
+    margin-top: 30px
+}
+
+a.btn_etc:link, a.btn_etc:visited {
+    float: right;
+    display: block;
+    width: 128px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+    color: #009aec;
+    background: #ffffff;
+    border: 1px solid #009aec;
+    border-radius: 4px;
+    margin-top: 30px
+}
+
+a.btn_etc:hover, a.btn_etc:active {
+    float: right;
+    display: block;
+    width: 128px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+    color: #0071ad;
+    background: #d7eefa;
+    border: 1px solid #0071ad;
+    border-radius: 4px;
+    margin-top: 30px
+}
+
+.btn_space {
+    margin-right: 10px
+}
+
+.ok_set {
+    background: #f6f6f6;
+    padding: 70px 0 70px 0;
+    overflow: hidden;
+    padding-left: 240px
+}
+
+.ok_set .success {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 36px;
+    margin-top: 28px
+}
+
+.mt-6 {
+    margin-top: -6px
+}
+
+.mt24 {
+    margin-top: 24px
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title_color01 {
+    color: #ff690f
+}
+
+.title_color02 {
+    color: #32a200
+}
+
+.title_color03 {
+    color: #0094d1
+}
+
+.contact_detail {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    padding: 18px 22px 18px 22px;
+    margin-top: -3px;
+    color: #222
+}
+
+.contact_space {
+    margin-top: 12px;
+    overflow: hidden
+}
+
+.contact_box {
+    float: left;
+    width: 208px;
+    background: #f6f6f6;
+    border: 1px solid #ededed
+}
+
+.mr12 {
+    margin-right: 12px
+}
+
+.contact_box_space {
+    margin: 5px 13px 12px 13px
+}
+
+.contact_army {
+    font-weight: bold;
+    color: #000;
+    padding-top: 12px
+}
+
+.contact_man {
+    margin-top: 18px;
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666
+}
+
+.contact_part {
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 49px;
+    color: #999
+}
+
+.contact_part2 {
+    margin-top: 2px;
+    font-size: 11px;
+    margin-left: 49px;
+    color: #999
+}
+
+.contact_tel {
+    margin-top: 2px;
+    font-size: 16px;
+    margin-left: 50px;
+    font-weight: bold
+}
+
+.nodata2 {
+    width: 100%;
+    height: 517px;
+    margin: auto;
+    background: #f7f7f7;
+    text-align: center
+}
+
+.nodata2 .icon {
+    padding-top: 180px
+}
+
+.nodata2 .text {
+    font-weight: bold;
+    color: #888;
+    padding-top: 12px
+}
+
+.page {
+    margin: 30px 0;
+    width: 100%x;
+    text-align: center
+}
+
+.page_align {
+    display: inline-block
+}
+
+a.page_num:link, a.page_num:visited {
+    float: left;
+    display: block;
+    font-size: 12px;
+    width: 24px;
+    height: 22px;
+    background: #ffffff;
+    color: #222;
+    border: 1px solid #ededed;
+    padding: 0px 0;
+    margin: 0 2px;
+    line-height: 20px
+}
+
+a.page_num:hover, a.page_num:active {
+    float: left;
+    display: block;
+    font-size: 12px;
+    width: 24px;
+    height: 22px;
+    background: #c0d8e2;
+    color: #222;
+    border: 1px solid #c0d8e2;
+    padding: 0px 0;
+    margin: 0 2px;
+    line-height: 20px
+}
+
+.view_title_box {
+    background: #f6f6f6;
+    border: 1px solid #ededed;
+    text-align: center
+}
+
+.view_title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px
+}
+
+.view_contents_box {
+    background: #fff;
+    border: 1px solid #ededed;
+    margin-top: -1px;
+    overflow: hidden
+}
+
+.view_write {
+    width: 100%;
+    border-bottom: 1px dashed #ededed;
+    overflow: hidden;
+    font-size: 12px
+}
+
+.view_write .info {
+    float: right;
+    padding: 8px 10px 7px 0;
+    color: #888
+}
+
+.view_write .info .wspace {
+    float: left;
+    padding-left: 60px
+}
+
+.view_contents {
+    margin: 24px;
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    /* overflow:hidden; */
+}
+
+.view_contents2 {
+    margin: 24px;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden
+}
+
+a.faq_kind_selected:link, a.faq_kind_selected:visited, a.faq_kind_selected:hover, a.faq_kind_selected:active {
+    float: left;
+    display: block;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-right: 1px solid #d8d8d8;
+    color: #222;
+    background: none
+}
+
+a.faq_kind:link, a.faq_kind:visited {
+    float: left;
+    display: block;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-right: 1px solid #d8d8d8;
+    color: #999;
+    background: none
+}
+
+a.faq_kind:hover, a.faq_kind:active {
+    float: left;
+    display: block;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-right: 1px solid #d8d8d8;
+    color: #222;
+    background: none
+}
+
+.list_rep {
+    float: left;
+    color: #444;
+    padding-left: 183px
+}
+
+.arrow {
+    text-align: center;
+    margin: 20px 0 -25px 0
+}
+
+.tab_list {
+    margin: 0 0 26px 0;
+    overflow: hidden;
+    background: url(../images/bg_tab.png) repeat-x 0 35px
+}
+
+.tab_list_select {
+    float: left;
+    width: 177px;
+    background: #fff;
+    border-top: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #d5d5d5;
+    padding: 8px 0 8px 0;
+    text-align: center;
+    font-weight: bold
+}
+
+a.tab_list_unselect:link, a.tab_list_unselect:visited {
+    display: block;
+    float: left;
+    width: 179px;
+    padding: 9px 0 8px 0;
+    border-bottom: 1px solid #d5d5d5;
+    color: #fff;
+    color: #999;
+    font-weight: bold;
+    background: #f1f1f1;
+    text-decoration: none;
+    text-align: center
+}
+
+a.tab_list_unselect:hover, a.tab_list_unselect:active {
+    display: block;
+    float: left;
+    width: 179px;
+    padding: 9px 0 8px 0;
+    border-bottom: 1px solid #d5d5d5;
+    color: #fff;
+    color: #222;
+    font-weight: bold;
+    background: #e1e1e1;
+    text-decoration: none;
+    text-align: center
+}
+
+a.tooltip {
+    position: relative
+}
+
+a.tooltip span {
+    display: none
+}
+
+a.tooltip:hover span {
+    display: block;
+    position: absolute;
+    width: 108px;
+    top: 10px;
+    left: 40px;
+    border: 1px solid #009aec;
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #222
+}
+
+a.tooltip:hover {
+    font-size: 100%
+}
+
+/* secret.html */
+/*
+.pw_bg {position:absolute; display:table; top:0; left:0; width:100%; height:100%; background:#444; background:rgba(0,0,0,0.7)}
+.pw_bg .pw_inner{display:table-cell; text-align:center; vertical-align:middle}
+.pw_bg .pw_content{display:inline-block; width:400px; padding:26px 0 22px 0; background:#fff; border-radius:4px}
+*/
+.pw_content {
+    width: 400px;
+    padding: 26px 0 22px 0;
+    background: #fff;
+    border-radius: 4px
+}
+
+.pw_exp {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.pw_ipt_area {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2
+}
+
+.pw_input.space {
+    padding: 2px
+}
+
+.pw_btn_area {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden
+}
+
+a.pop_OK:link, a.pop_OK:visited {
+    float: left;
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0 6px 0;
+    color: #fff;
+    background: #009aec;
+    border-radius: 2px;
+    margin-top: 20px
+}
+
+a.pop_OK:hover, a.pop_OK:active {
+    float: left;
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 0 6px 0;
+    color: #fff;
+    background: #0071ad;
+    border-radius: 2px;
+    margin-top: 20px
+}
+
+a.pop_etc:link, a.pop_etc:visited {
+    float: right;
+    display: block;
+    width: 98px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    color: #009aec;
+    background: #ffffff;
+    border: 1px solid #009aec;
+    border-radius: 2px;
+    margin-top: 20px
+}
+
+a.pop_etc:hover, a.pop_etc:active {
+    float: right;
+    display: block;
+    width: 98px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    color: #0071ad;
+    background: #d7eefa;
+    border: 1px solid #0071ad;
+    border-radius: 2px;
+    margin-top: 20px
+}
