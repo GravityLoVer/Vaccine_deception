@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
+<script type="javascript">
+    function movetotarget(){
+        window.location.href = "inner_main.jsp"
+    }
+</script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -39,7 +44,7 @@
         <ul>
             <!-- 내부망 -->
             <li class="inside">
-                <a onclick="testList.jsp" title="국방망" class="nav-link">
+                <a onclick=movetotarget() title="국방망" class="nav-link">
                     <div class="icon-text">
                         <img src="/images/egovframework/main_img/ico_inside.png" alt="국방망 아이콘">
                         <span>국방망</span>
